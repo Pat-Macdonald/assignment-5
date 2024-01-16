@@ -4,26 +4,67 @@ body {
 
 h1 {
     color: plum;
-    font-family: 'Lemon', serif;
+    font-family: 'Lemon', sans-serif, serif, Georgia;
+    text-align: center;
+    font-size: 100px;
 }
 
 h2 {
     color: darkmagenta;
-    font-family: 'Lemon', serif;
+    font-family: 'Lemon', sans-serif, serif, Georgia;
+    font-size: 40px;
 }
 
 li {
     color: rgb(44, 44, 44);
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif, serif, Georgia;
     font-weight: 600;
+    font-size: 30px;
+    line-height: 2;
 }
 
 p {
     color: rgb(44, 44, 44);
-    font-family: 'Dosis', sans-serif;
-    font-weight: 600;
+    font-family: 'Dosis', sans-serif, serif, Georgia;
+    font-size: 30px;
 }
 
 footer {
-    background-color: plum
+    background-color: plum;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+a:link,
+
+a:focus,
+
+a {
+    text-decoration: none;
+    color:blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:aqua;
+}
+
+a:visited {
+    color: gray;
+}
+
+.red {
+    color: rgb(211, 0, 0)
+}
+
+.pink {
+    color: rgb(255, 161, 177)
+}
+
+.purple {
+    color: purple
 }
