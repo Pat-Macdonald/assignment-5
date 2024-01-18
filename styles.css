@@ -118,5 +118,11 @@ img {
     border-top-right-radius: 300px;
     border-bottom-right-radius: 300px;
     padding-top: 100px;
-    background-position: -100px -100px;
+    background-position: 100%;
+}
+
+.banner {
+    height: 350px;
+    background-image: url(./images/pink.jpg);
+    background-size: cover;
 }
